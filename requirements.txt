@@ -1,0 +1,9 @@
+# Minimum versions this project was developed against.
+# Regenerate exact pins once your environment is settled:
+#     pip freeze > requirements.txt
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+matplotlib>=3.8
+pyarrow>=15.0
+jupyter>=1.0

@@ -1,0 +1,20 @@
+# Conda environment for the Saudi House Price Prediction project.
+#
+#   conda env create -f environment.yml
+#   conda activate ksa-house
+#
+# Written with `conda env export --from-history`, which records only the
+# packages that were explicitly requested. A plain `conda env export` pins
+# every transitive dependency to a build string for one CPU architecture,
+# and that file will not install on anyone else's machine.
+name: ksa-house
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - pyarrow
+  - jupyterlab
